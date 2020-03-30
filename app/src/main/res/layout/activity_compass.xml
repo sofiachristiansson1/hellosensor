@@ -11,6 +11,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
+        android:layout_marginTop="128dp"
         android:gravity="center_horizontal"
         android:text="0°"
         android:textAlignment="center"
@@ -19,7 +20,6 @@
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/img_compass"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -28,12 +28,10 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_azimuth"
-        android:layout_marginTop="16dp"
-        android:layout_marginBottom="110dp"
+        android:layout_marginBottom="37dp"
         android:src="@drawable/campasspic"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/txt_azimuth" />
 
