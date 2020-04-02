@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Compass">
+    tools:context=".Compass"
+    android:id="@+id/compass_layout">
 
     <TextView
         android:id="@+id/txt_azimuth"
@@ -18,7 +19,6 @@
         android:textColor="#000"
         android:textSize="40sp"
         android:textStyle="bold"
-        app:layout_constraintBottom_toTopOf="@+id/img_compass"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -28,8 +28,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/txt_azimuth"
-        android:layout_marginBottom="37dp"
-        android:src="@drawable/campasspic"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/comp2"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
